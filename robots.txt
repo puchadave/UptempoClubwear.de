@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://uptempoclubwear.de/sitemap.xml
