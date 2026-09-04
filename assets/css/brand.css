@@ -104,9 +104,10 @@
 
 .set-card img{
   width: 100%;
-  aspect-ratio: 4/3;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   display: block;
+  background: var(--surface);
 }
 
 .set-body{
