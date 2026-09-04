@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+<rect width="1200" height="400" fill="#050505"/>
+<g fill="#F4F4F4">
+<text x="600" y="175" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="132" letter-spacing="-4">UPTEMPO</text>
+<text x="600" y="290" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="86" letter-spacing="12">CLUBWEAR</text>
+</g>
+<path d="M600 45 l22 34 40 -10 -22 34 22 34 -40 -10 -22 34 -22 -34 -40 10 22 -34 -22 -34 40 10z" fill="#E10600"/>
+</svg>

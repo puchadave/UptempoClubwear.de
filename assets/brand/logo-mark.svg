@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="72" fill="#050505"/>
+<path d="M256 44 l24 48 54-14-30 48 30 48-54-14-24 48-24-48-54 14 30-48-30-48 54 14z" fill="#E10600"/>
+<text x="256" y="350" text-anchor="middle" font-family="Impact,Arial Black,sans-serif" font-size="230" fill="#F4F4F4">U</text>
+</svg>
