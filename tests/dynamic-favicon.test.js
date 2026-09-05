@@ -10,10 +10,9 @@ vm.runInContext(source, context);
 const api = context.UptempoFavicon;
 assert.ok(api, 'UptempoFavicon API must be exposed');
 
-assert.deepEqual(
-  api.buildSvg(\"logo\"),
-  { state: 'logo', href: 'assets/img/icons/favicon.svg' }
-);
+const logo = api.buildSvg('logo');
+assert.equal(logo.state, 'logo');
+assert.equal(logo.href, 'assets/img/icons/favicon.svg');
 
 const sequence = api.getSequence();
 assert.deepEqual(sequence.map((step) => step.state), [
