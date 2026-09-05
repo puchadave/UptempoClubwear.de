@@ -113,8 +113,9 @@
   }
 
   const api = Object.freeze({ buildSvg, getSequence, nextState, start });
+  globalThis.UptempoFavicon = api;
+
   if (typeof window !== 'undefined') {
-    window.UptempoFavicon = api;
     window.addEventListener('DOMContentLoaded', () => {
       if (document.documentElement.dataset.disableDynamicFavicon !== 'true') {
         window.__uptempoFaviconStop = start();
