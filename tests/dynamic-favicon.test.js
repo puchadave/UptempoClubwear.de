@@ -14,7 +14,7 @@ const logo = api.buildSvg('logo');
 assert.equal(logo.state, 'logo');
 assert.equal(logo.href, 'assets/img/icons/favicon.svg');
 
-const sequence = api.getSequence();
+const sequence = Array.from(api.getSequence());
 assert.deepEqual(sequence.map((step) => step.state), [
   'idle',
   'glow',
